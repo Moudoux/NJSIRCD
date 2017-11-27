@@ -17,7 +17,7 @@ To run this IRC simply run
 The privacy part
 -------------------
 
-This IRC will hide everyones IP address and their username. Only channels ops can see the real usernames, and no one can see the real ips.
+This IRC will hide everyone's IP address and their username. Only channel ops can see the real username's, and no one can see the real ips.
 
 Connections
 -------------------
