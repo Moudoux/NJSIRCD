@@ -11,7 +11,6 @@ const rl = require('readline');
 const fs = require('fs');
 const nconf = require('nconf');
 const _ = require('lodash');
-let lastTipID = 0;
 
 /**
  * Constants
@@ -44,7 +43,7 @@ nconf.file({ file: './config.json' });
 
 // Join cmds
 const S001 = ":%SERVER_HOST% 001 %NICK% :Welcome to the network";
-const S002 = ":%SERVER_HOST% 002 %NICK% :Your host is %SERVER_HOST%, running %SERVER_VERSION%";
+const S002 = ":%SERVER_HOST% 002 %NICK% :Your host is %SERVER_HOST%, running %SERVER_VERSION% (https://github.com/Moudoux/NJSIRCD)";
 const S003 = ":%SERVER_HOST% 003 %NICK% :This server was started at %DATE%";
 const S004 = ":%SERVER_HOST% 004 %NICK% :Join a channel with /join <channel>";
 

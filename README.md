@@ -14,10 +14,29 @@ Running
 To run this IRC simply run
 `node App` or `npm start`
 
+Server commands
+-------------------
+
+This server has the essentials built in for claiming nicks, banning, etc.
+
+* /register <Password> - This will register your current nick.
+* /auth <Password> - Used to access your claimed nick when you join the IRC.
+* /mode <Options> - Used to ban and give op to people.
+* /kick <Nick> - Kicks a user from a channel.
+* /part <Reason> - Leave a IRC channel.
+* /topic <Options> - Sets/Gets the channel topic.
+* /join <Channel> - Joins a channel, if it doesn't exist, you get channel operator status.
+* /ping - Pings the server
+* /names - Returns a list of all nicks in a channel
+* /whois <Nick> - Returns info about a given user (nick, realname, hostname)
+
+This server also supports things like private messages.
+
 The privacy part
 -------------------
 
 This IRC will hide everyone's IP address and their username. Only channel ops can see the real username's, and no one can see the real ips.
+Things like registering nicks is built in in the IRC server, to register a nick simply run `/register <password>` to claim your current nick.
 
 Connections
 -------------------
