@@ -1,0 +1,1 @@
+const ircserver = require("./Server.js");

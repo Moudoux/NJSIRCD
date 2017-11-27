@@ -1,0 +1,31 @@
+{
+  "name": "NJSIRCD",
+  "version": "1.0.0",
+  "description": "Privacy focused high throughput IRC daemon",
+  "main": "App.js",
+  "scripts": {
+    "start": "node App"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moudoux/NJSIRCD.git"
+  },
+  "keywords": [
+    "IRC",
+    "daemon",
+    "privacy",
+    "chat",
+    "im"
+  ],
+  "author": "Deftware",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Moudoux/NJSIRCD/issues"
+  },
+  "homepage": "https://github.com/Moudoux/NJSIRCD#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "nconf": "^0.9.1",
+    "readline": "^1.3.0"
+  }
+}
