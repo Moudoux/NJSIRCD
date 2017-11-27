@@ -5,6 +5,10 @@ The Node.js IRC Daemon (NJSIRCD) is a privacy focused high throughput IRC daemon
 Installing
 -------------------
 
+If you're on Unix simply type `$ curl -sSL https://raw.githubusercontent.com/Moudoux/NJSIRCD/master/install.sh | bash` to install.
+
+Manual install:
+
 Clone this git, run `npm install` and make three files, `blacklisted_ips.txt`, `blacklisted_nicks.txt` and `blacklisted_words.txt`. Edit them to your liking, if you
 wish to use SSL simply make a new folder called `SSL`, in it drop your cert file `cert.pem` and key `rsa.key`. 
 
