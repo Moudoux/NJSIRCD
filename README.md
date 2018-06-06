@@ -1,5 +1,14 @@
 NJSIRCD
 ===================
+
+Moved to GitLab
+-------------------
+
+NJSIRCD has moved to GitLab, at [https://gitlab.com/deftware/NJSIRCD](https://gitlab.com/deftware/NJSIRCD)
+
+About
+-------------------
+
 The Node.js IRC Daemon (NJSIRCD) is a privacy focused high throughput IRC daemon.
 
 Installing
